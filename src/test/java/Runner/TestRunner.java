@@ -19,7 +19,7 @@ import io.cucumber.testng.CucumberOptions;
  *   monochrome → makes the console output cleaner (no weird symbols)
  */
 @CucumberOptions(
-        features   = "src/main/resources/features",
+        features   = "src/main/resources/feature",
         glue       = {"StepDefinitions", "framework.hooks"},
         plugin     = {
                 "pretty",
